@@ -1,0 +1,61 @@
+li.toplevel_page_keitaro .wp-menu-image:before {
+    content: 'K';
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+    position: absolute !important;
+    color: rgba(240,245,250,.6);
+    font-weight: bold;
+    font-size: 20px;
+    left: 8px;
+    top: 0;
+}
+
+
+#keitaro-import-box {
+    width: 400px;
+    max-width: 100%;
+}
+
+.keitaro—disabled {
+    opacity: .3;
+    pointer-events: none;
+}
+
+.keitaro-pages {
+    display: table;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.keitaro-pages-page {
+    display: table-row;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+
+.keitaro-pages-header {
+    font-weight: bold;
+}
+
+
+.keitaro-pages-page-item {
+    display: table-cell;
+    padding: 0.5em;
+    min-height: 24px;
+    vertical-align: middle;
+}
+
+.keitaro-pages-page-name {
+    width: 30%;
+    text-align: left;
+}
+
+.keitaro-pages-page-campaign {
+    width: 70%;
+}
+
+.keitaro-pages-page-token {
+    margin-left: 10px;
+}
+
+.keitaro-hidden {
+    display: none;
+}
